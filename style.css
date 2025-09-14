@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a78dd; /* Amazon dark blue */
+  color: rgb(6, 26, 93);
+  padding: 10px 20px;
+  height: 90px;
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+.logo span {
+  color: orange;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  width: 40%;
+}
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: red;
+  border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+  
+}
+.search-bar button  {
+  background: orange;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+   border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+
+}
+.search-bar:hover{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+      border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    border: 2px solid rgb(49, 19, 125);
+}
+
+/* Menu Links */
+.menu a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+
+.sub-navbar {
+  background-color: #232f3e;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/*button sab ko clickable bana ne k liye */
+.menu a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient button look */
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.menu a:hover {
+  background: linear-gradient(135deg, #f7971e, #ffd200); /* Hover → orange/yellow */
+  color: #000;  /* text black for contrast */
+  transform: translateY(-2px); /* hover pe thoda upar uthe */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
+.sub-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sub-navbar a:hover {
+  text-decoration: underline;
+}
+
+.sub-navbar .menu-icon {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.sub-navbar{
+  background-color: #495666;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sub-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sub-navbar a:hover {
+  text-decoration: underline;
+}
+
+.sub-navbar .menu-icon {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.sub-navbar{
+      background: #0b264d; /* everest dark blue */
+  color: rgb(6, 11, 30);
+  padding: 10px 20px;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-items: 100%;
+
+
+}
+
+
+.sub-navbar a:hover {
+  color: #f69607;
+}
+.sub-navbar :hover{
+    border: 2px #fff;
+}
+
+
+
+.All:hover {
+    border: 2px red;
+}
+
+.hero-section {
+background-image: url(hero1.jpg);
+background-size: cover;
+height: 220px; 
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding-top: 200px;
+}
+
+.message {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+      border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+  background-color: rgb(209, 209, 209);
+  color:rgb(223, 225, 232) ;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+ 
+  margin-bottom: 35px;
+}
+
+.message a {
+  
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+      border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+   
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+
+/** shop section **/
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #1a09d2;
+}
+
+.box {
+/* border: 2px solid black; */
+    display-content :flex ;
+    display-content : center ;
+      border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+      border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+   /* border: 2px solid rgb(237, 21, 21);*/
+  height: 410px;
+  width: 23%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.box-img {
+     border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+      border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%; 
+  height: 300px;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content {
+  color: #13005a;
+}
+
+
+
+.img-link {
+  display: block;
+  text-decoration: none;
+}
+
+.img-link .box-img {
+  transition: transform 0.3s ease;
+}
+
+.img-link:hover .box-img {
+  transform: scale(1.05); /* hover पर zoom effect */
+}
+
+
+
+.img-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;   /* 👈 Mouse pointer बदलेगा */
+}
+
+.img-link .box-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-link:hover .box-img {
+  transform: scale(1.05);   /* 👈 Hover पर Zoom */
+  box-shadow: 0px 4px 12px rgba(14, 3, 69, 0.3); /* 👈 हल्का shadow effect */
+}
+
+
+
+footer {
+  margin-top: 5px;
+}
+
+.foot-panel {
+  background-color: #05006d;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+
+}
+
+.foot-panel2 {
+  background-color: #3308cd;
+  color: rgb(255, 255, 255);
+  height: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.foot-panel2 a{
+text-decoration: none;
+
+}
+
+
+ul {
+  margin-top: 15px;
+
+}
+  ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color : white;
+
+  }
+
+  ul a:hover{
+    color: rgb(185, 120, 10);
+  }
+
+  .foot-panel4 a {
+    height: 40px;
+    background-color: #080862;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .pages a {
+    color: white;
+   font-size: 1rem;
+ 
+  }
+
+
+  .copyright {
+    padding: 10px;
+  font-size: 1rem;
+  }
